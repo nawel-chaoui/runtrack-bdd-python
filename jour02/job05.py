@@ -4,7 +4,7 @@ import mysql.connector
 db = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="laPlateformedeoz!1702",
+  password="add un mdp",
   database="LaPlateforme"
 )
 
