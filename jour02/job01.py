@@ -3,11 +3,11 @@ import mysql.connector
 db = mysql.connector.connect(          # connexion à la database
   host="localhost",
   user="root",
-  password="laPlateformedeoz!1702",
+  password="add le mdp",
   database="LaPlateforme"
 )
 
-cursor = db.cursor()
+cursor = db.cursor()  # créer un curseur
 
 cursor.execute("SELECT * FROM etudiants")  # selection de la tables
 
